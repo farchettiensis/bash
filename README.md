@@ -6,6 +6,7 @@ In this simple bash script, I made a tribute to him while playing with colors us
 ## Making it available as command everywhere
 
 <p> You can run this script with the following command, provided it's in the same directory where you execute it: </p>
+
 > ```./david```
 
 But this doesn't do David justice. You want to make this command available everywhere.
