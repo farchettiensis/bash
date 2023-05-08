@@ -12,8 +12,15 @@ In this simple bash script, I made a tribute to him while playing with colors us
 But this doesn't do David justice. You want to make this command available everywhere.
 - Add your /home/user/bin to the PATH variable (or whichever directory you prefer) and move the script to that directory:
 
-> ```export PATH=$PATH:/home/user/bin```
+> ```mkdir ~home/<user_name>/bin```  
+> ```vim ~/.bashrc```
 
+- Add the following lines to .bashrc:
+> ```
+> if [ -d ~/bin ]; then   
+>   PATH=$PATH:$HOME/bin  
+>   PATH=$PATH:/home/user/bin  
+> fi
 
 - Run the following command:
 
